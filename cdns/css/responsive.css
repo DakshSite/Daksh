@@ -1,0 +1,218 @@
+@media screen and (max-width:1280px) {
+    /* Project */
+    .content3 .projects{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px 0px;
+    }
+    .content3 > .projects > .card{
+        width: 30%;
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    :root{
+        --size1: 45px;
+        --size2: 23px;
+        --size3: 17px;
+        --size4: 16px;
+        --size5: 14px;
+    }
+    /* About */
+    .aboutMe > div:nth-child(2){
+        grid-gap: 10px 0px;
+    } 
+    /* Project */
+    .content3 .projects{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px 0px;
+    }
+    .content3 > .projects > .card{
+        width: 35%;
+    }
+}
+
+
+
+@media screen and (max-width:960px) {
+
+    /* About */
+    .aboutMe > div:nth-child(1){
+        width: 40%;
+        height: 450px;
+    }
+    .aboutMe > div:nth-child(1) > img{
+        object-fit: cover;
+        object-position: center right;
+    }
+    .aboutMe > div:nth-child(2){
+        width: 60%;
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    /* Projects */
+    .content3 > .projects > .card{
+        width: 40%;
+    }
+     /* About */
+     .aboutMe{
+        width: 100%;
+        border-radius: 5px;
+        background: var(--mainClr);
+        border: 2px solid var(--mainClr2);
+        display: grid;
+        align-items: center;
+        z-index: 3;
+        padding: 10px;
+        gap: 10px;
+    }
+    .aboutMe > div:nth-child(1){
+        width: 100%;
+        height: 350px;
+    }
+    .aboutMe > div:nth-child(1) > img{
+        object-fit: cover;
+        object-position: center;
+    }
+    .aboutMe > div:nth-child(2){
+        width: 100%;
+    }
+    .aboutMe > div:nth-child(2) > div:nth-child(3){
+        margin-top: 10px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width:680px) {  
+    /* Content 1 */
+    .content1{
+        display: grid;
+        align-items: center;
+        align-content: center;
+        grid-gap: 20px 0px;
+        padding: 50px 0px 100px 0px;
+    }
+    /* Projects */
+    .content3 > .projects > .card{
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (max-width:658px) {  
+    :root{
+        --size1: 40px;
+        --size2: 22px;
+        --size3: 17px;
+        --size4: 16px;
+        --size5: 14px;
+    }
+    /* Projects */
+    .content3 > .projects > .card{
+        width: 80%;
+    }
+    /* footer */
+    .footer{
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:590px) {
+    :root{
+        --size1: 35px;
+        --size2: 22px;
+        --size3: 16px;
+        --size4: 15px;
+        --size5: 14px;
+    }
+    /* Nav */
+    .nav .links{
+        display: none;
+    }
+    .mobileNav{
+        display: block;
+        top: -100%;
+    }
+    .nav > .bar{
+        display: flex;
+    }
+    /* About */
+    .aboutMe > div:nth-child(1){
+        width: 100%;
+        height: 300px;
+    }
+    .content2 > div:nth-child(1) > img:nth-child(2){
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    /* About */
+    .aboutMe > div:nth-child(1){
+        width: 100%;
+        height: 250px;
+    }
+    /* Projects */
+    .content3 > .projects > .card{
+        width: 90%;
+    }
+    /* Footer */
+    .footer > div:nth-child(1){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px 0px;
+        justify-content: space-between;
+    }
+    .footer > div:nth-child(1) > div{
+        width: 50%;
+    }
+    .footer > div:nth-child(1) > div:nth-child(3){
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width:450px) {
+    /* About */
+    .aboutMe > div:nth-child(1){
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    :root{
+        --size1: 30px;
+        --size2: 20px;
+        --size3: 15px;
+        --size4: 14px;
+        --size5: 13px;
+    }
+    /* Footer */
+    .footer > div:nth-child(1){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px 0px;
+        justify-content: space-between;
+    }
+    .footer > div:nth-child(1) > div{
+        width: 100%;
+    }
+};
